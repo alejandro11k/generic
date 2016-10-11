@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 @Path("/prime")
 public class ProbablyPrimeService {
-	
+
 	@GET
 	@Path("/{number}")
 	@Produces("text/plain")
